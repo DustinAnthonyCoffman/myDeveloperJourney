@@ -14,7 +14,7 @@ const model = require('../models/blog')
 
 
 /*-----this is the link to our controller -----*/
-const blogsCtlr = require('../controllers/index');
+const blogsCtlr = require('../controllers/blogs');
 
 /* why is this / ? because we will eventually expand to this /blogs or /blogs/comments etc. 
 we want to map this router to this controller*/
